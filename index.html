@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Custom CSS for specific styling */
+    .about-section {
+      padding: 50px 0;
+    }
+    .about-heading {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .profile-image {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 5px solid #fff;
+      overflow: hidden;
+      margin: 0 auto 20px;
+    }
+    /* Sticky Navigation */
+    body {
+    padding-top: 70px; /* Adjust according to your navbar height */
+    }
+
+    .navbar {
+     transition: top 0.3s;
+     }
+
+    .navbar.fixed-top {
+     top: 0;
+     z-index: 1000;
+    }   
+
+    .nav-link {
+   cursor: pointer;
+    }
+
+    
+  </style>
+</head>
+<body>
+
+
+<!-- About Section -->
+<section id="about" class="about-section">
+  <div class="container">
+    <h2 class="about-heading">About</h2>
+    <div class="profile-image mx-auto">
+      <img src="images/about/Profile Picture.jpg" class="img-fluid" alt="Profile Picture">
+    </div>
+    <div class="about-text text-center">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects-section">
+    <div class="container">
+      <h2 class="projects-heading text-center mb-4">Projects</h2>
+      <div class="row">
+  
+        <!-- Project 1 Card -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100">
+            <img src="images/projects/1.jpeg" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+              <a href="#" class="btn btn-primary">Blog Post</a>
+              <a href="#" class="btn btn-secondary">Source Code</a>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Project 2 Card -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100">
+            <img src="images/projects/2.jpeg" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Project 2</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+              <a href="#" class="btn btn-primary">Blog Post</a>
+              <a href="#" class="btn btn-secondary">Source Code</a>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Project 3 Card -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100">
+            <img src="images/projects/3.jpeg" class="card-img-top" alt="Project 3">
+            <div class="card-body">
+              <h5 class="card-title">Project 3</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+              <a href="#" class="btn btn-primary">Blog Post</a>
+              <a href="#" class="btn btn-secondary">Source Code</a>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+<section id="skills" class="skills-section">
+    <div class="container">
+      <h2 class="skills-heading text-center mb-4">Skills</h2>
+      <div class="row">
+  
+        <!-- Skill Category 1 Card -->
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card h-100 text-center">
+            <img src="skills/python.jpeg" class="card-img-top mx-auto mt-3" alt="Skill 1">
+            <div class="card-body">
+              <h5 class="card-title">Python</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+              <a href="#" class="btn btn-primary">Link to course or bootcamp</a>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Skill Category 2 Card -->
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card h-100 text-center">
+            <img src="skills/data.jpeg" class="card-img-top mx-auto mt-3" alt="Skill 2">
+            <div class="card-body">
+              <h5 class="card-title">Data Visualization</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+              <a href="#" class="btn btn-primary">Link to course or bootcamp</a>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Skill Category 3 Card -->
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card h-100 text-center">
+            <img src="skills/sql.jpeg" class="card-img-top mx-auto mt-3" alt="Skill 3">
+            <div class="card-body">
+              <h5 class="card-title">SQL</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+              <a href="#" class="btn btn-primary">Link to course or bootcamp</a>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Skill Category 4 Card -->
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card h-100 text-center">
+            <img src="skills/story.jpeg" class="card-img-top mx-auto mt-3" alt="Skill 4">
+            <div class="card-body">
+              <h5 class="card-title">Data Storytelling</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+              <a href="#" class="btn btn-primary">Link to course or bootcamp</a>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me Section -->
+<section id="contact" class="contact-section bg-dark text-white py-4">
+  <div class="container">
+    <h3 class="contact-heading text-center mb-4">Contact Me</h3>
+    <div class="row justify-content-center mb-4">
+      <!-- Email -->
+      <div class="col-md-3 text-center mb-3">
+        <a href="mailto:your.email@example.com" class="text-white">
+          <i class="fas fa-envelope fa-2x mb-2"></i>
+          <p class="mb-0">kolawoledaniel91@yahoo.com</p>
+        </a>
+      </div>
+      <!-- Phone Number -->
+      <div class="col-md-3 text-center mb-3">
+        <a href="tel:+1234567890" class="text-white">
+          <i class="fas fa-phone fa-2x mb-2"></i>
+          <p class="mb-0">+447448868085</p>
+        </a>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <!-- Social Media Icons -->
+      <div class="col-md-6 text-center">
+        <a href="#" class="btn btn-social btn-linkedin" data-toggle="tooltip" data-placement="top" title="LinkedIn">
+          <img src="icons/lin.jpg" alt="LinkedIn" style="width: 40px; height: 40px;">
+          <span class="text-white">LinkedIn</span>
+        </a>
+        <a href="#" class="btn btn-social btn-github" data-toggle="tooltip" data-placement="top" title="GitHub">
+          <img src="icons/git.jpg" alt="GitHub" style="width: 40px; height: 40px;">
+          <span class="text-white">GitHub</span>
+        </a>
+        <a href="#" class="btn btn-social btn-medium" data-toggle="tooltip" data-placement="top" title="Medium">
+          <img src="icons/med.jpg" alt="Medium" style="width: 40px; height: 40px;">
+          <span class="text-white">Medium</span>
+
+        </a>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Your Sections (About, Projects, Skills, Contact) will go here -->
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Smooth scrolling
+    $(document).ready(function(){
+      $('a[href^="#"]').on('click', function(event) {
+        var target = $(this.getAttribute('href'));
+        if( target.length ) {
+          event.preventDefault();
+          $('html, body').stop().animate({
+            scrollTop: target.offset().top
+          }, 1000);
+        }
+      });
+    });
+  </script>
+</body>
+</html>
+
+
+  
+  
+
+<!-- Bootstrap JS (optional) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
